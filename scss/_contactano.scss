@@ -1,0 +1,74 @@
+/*-----------------------------------------------------------------------*/
+
+
+/* inicia contactanos*/
+#titulocontac {
+	@include title
+	margin-bottom: 1em;
+}
+
+.contact-wrapper{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	max-width: 1170px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 1em;
+
+
+}
+
+.contact-form form{
+	margin: 0;
+	
+}
+
+
+.contact-form form input,
+.contact-form form textarea{
+	width: 100%;
+	padding: .2em;
+	margin-bottom: 2em;
+	color: $violeta;
+	border: none;
+	background: none;
+	border-bottom: 1px solid red;
+	outline: none;
+	
+
+}
+
+
+.contact-form form textarea{
+	border:1px solid red;
+	outline: none;
+}
+
+.contact-form form button{
+	background-color: red;
+	border: 0;
+	padding: .7em;
+	width: 150px;
+	color: #ffffff;
+	font-family: "dutch801 Rm BT", serif;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	margin-bottom: 2em;
+	text-align: center;
+
+
+}
+
+.contact-form form label{
+	font-family: "dutch801 Rm BT", serif;
+	letter-spacing: 1.5px;
+	color: red;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+/* fin contactanos*/

@@ -1,0 +1,101 @@
+/*-----------------------------------------------------------------------*/
+
+/* inicia footer */
+
+footer a{
+	list-style: none;
+	text-decoration:none;
+}
+
+.socialmedia{
+	display: flex;  
+	flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+	background-color: $lila;
+	height: 200px;
+
+
+	h2{
+		text-align: center;
+		font-family:$cursive-font;
+		color: red;
+		font-size: 2rem;
+		padding: 1rem 2rem 1rem 2rem;
+	}
+
+ 		
+
+		a{
+			display: flex;  
+			flex-direction: row; 
+   			justify-content: center;
+    		align-items: center;
+			color: #fff;			
+			text-decoration: none;
+			text-align: center;
+			font-size: 30px;
+			background-color: $violeta;
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			text-align: center;
+			margin: 0rem 1rem 0rem 1rem;
+
+
+		}
+
+		a:hover{
+			display: flex;  
+			flex-direction: row; 
+   			justify-content: center;
+    		align-items: center;
+			color: #fff;			
+			text-decoration: none;
+			text-align: center;
+			font-size: 30px;
+			background-color: red;
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			text-align: center;
+			margin: 0rem 1rem 0rem 1rem;
+
+
+		}
+	
+}
+
+
+.row{
+	margin-bottom: 0px;
+}
+
+
+
+.copyr{
+	background-color: $violeta;
+	width: 100%;
+	height: 40px;
+}
+
+.copyr__texto{
+	font-family: $text-font;
+	color: #fff;
+	text-align: center;
+	font-size: .8rem;
+	padding: 1rem;
+	margin: 0px;
+
+	a{
+		color: #fff;
+	}
+
+}
+
+footer .row{
+	margin-bottom: 0px;
+}
+
+
+/* fin footer */

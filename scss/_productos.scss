@@ -1,0 +1,28 @@
+/*-----------------------------------------------------------------------*/
+
+
+/* Store */
+
+
+#encabezadostore{
+	@include title
+}
+
+
+.coming{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	background-color:#fff;
+}
+
+
+.coming__texto{
+	font-family: $cursive-font;
+	font-weight: bold;
+	color:$violeta;	
+	font-size: 3rem;
+}
+
+/* Store */

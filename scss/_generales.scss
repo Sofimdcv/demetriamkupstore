@@ -1,0 +1,20 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.pad_100 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+@font-face{
+	font-family: "dutch801 Rm BT", serif;
+	src: url(../font/dutch801-rm-bt-roman.ttf);
+}
+
+@font-face{
+	font-family: "eternate", sans-serif;
+	src: url(../font/eternate.ttf);
+}
